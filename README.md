@@ -1,2 +1,2 @@
 # SoftUni
-Here is exercise and exam tasks from SoftUni with Python
+Here is exercises and exams tasks from SoftUni with Python
