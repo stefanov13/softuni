@@ -331,10 +331,10 @@ Output
 Examples:
 
 Input:
-Programming Fundamentals : John Smith\n
-Programming Fundamentals : Linda Johnson\n
-JS Core : Will Wilson\n
-Java Advanced : Harrison White\n
+Programming Fundamentals : John Smith
+Programming Fundamentals : Linda Johnson
+JS Core : Will Wilson
+Java Advanced : Harrison White
 end
 
 Output:
