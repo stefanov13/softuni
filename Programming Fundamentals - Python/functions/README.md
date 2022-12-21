@@ -77,7 +77,7 @@ Output:
 b c  
 
 Input:  
-#
+`#`
 :	
 
 Output:   
@@ -85,7 +85,7 @@ $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9
 
 
 Input:  
-#  
+`#`  
 C	  
 
 Output:  
@@ -95,7 +95,9 @@ $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B
 You will receive a single number. You should write a function that returns the sum of all even and all odd digits in a given number. The result should be returned as a single string in the format: 
 "Odd sum = {sum_of_odd_digits}, Even sum = {sum_of_even_digits}"  
 Print the result of the function on the console.  
+
 Examples:  
+
 Input: 	
 1000435	  
 Output:  
@@ -123,7 +125,9 @@ Output:
 [2, -2]  
 
 6. Sort  
-Write a program that receives a sequence of numbers (integers) separated by a single space. It should print a sorted list of numbers in ascending order. Use sorted().
+Write a program that receives a sequence of numbers (integers) separated by a single space.   
+It should print a sorted list of numbers in ascending order. Use sorted().  
+
 Example:  
 Input:	
 6 2 4  
@@ -162,7 +166,10 @@ The maximum number is 53
 The sum number is: 183  
 
 8. Palindrome Integers  
-A palindrome is a number that reads the same backward as forward, such as 323 or 1001. Write a function that receives a list of positive integers, separated by comma and space ", ". The function should check if each integer is a palindrome - True or False. Print the result.
+A palindrome is a number that reads the same backward as forward, such as 323 or 1001. 
+Write a function that receives a list of positive integers, separated by comma and space ", ". 
+The function should check if each integer is a palindrome - True or False. Print the result.  
+
 Examples:   
 Input:				
 123, 323, 421, 121  
