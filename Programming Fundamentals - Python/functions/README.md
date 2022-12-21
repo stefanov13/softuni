@@ -77,7 +77,7 @@ Output:
 b c  
 
 Input:  
-`#`
+`#`  
 :	
 
 Output:   
@@ -103,7 +103,7 @@ Input:
 Output:  
 Odd sum = 9, Even sum = 4
 
-Input: 
+Input:  
 3495892137259234	 
 
 Output:  
@@ -129,13 +129,13 @@ Write a program that receives a sequence of numbers (integers) separated by a si
 It should print a sorted list of numbers in ascending order. Use sorted().  
 
 Example:  
-Input:	
+Input:	 
 6 2 4  
 Output:  
 [2, 4, 6]   
 
-Input:	
-12 52 11 53 2 8 45
+Input:	 
+12 52 11 53 2 8 45  
 
 Output:  
 [2, 8, 11, 12, 45, 52, 53]  
@@ -147,7 +147,7 @@ The output should be as follows:
 •	On the second line: "The maximum number is {maximum number}"  
 •	On the third line: "The sum number is: {sum of all numbers}"  
 
-Example: 
+Example:  
 
 Input:  
 2 4 6	 
@@ -212,16 +212,16 @@ Output:
 Password must be between 6 and 10 characters  
 Password must have at least 2 digits  
 
-Input: 
+Input:  
 MyPass123	 
 
 Output:  
 Password is valid   
 
-Input: 
+Input:  
 Pa$s$s	 
 
-Output: 
+Output:  
 Password must consist only of letters and digits  
 Password must have at least 2 digits  
 
@@ -232,21 +232,21 @@ Write a function that receives an integer number and returns one of the followin
 •	"It's not so perfect." - if the number is NOT perfect.  
 Print the result on the console. 
 
-Examples:
+Examples:  
 
-Input:  	 	Comments
+Input:  	
 6	  
 Output:  
 We have a perfect number!	 
 Comments:  
 1 + 2 + 3  
 
-Input:
+Input:  
 28	 
-Output:
+Output:  
 We have a perfect number!	 
 Comments:  
-1 + 2 + 4 + 7 + 14
+1 + 2 + 4 + 7 + 14  
 
 Input:  
 1236498	 
@@ -254,8 +254,8 @@ Input:
 Output:  
 It's not so perfect.  	
 Hint:  
-Every perfect number is half the sum of all its positive divisors (including itself) => the sum of all positive divisors (all of which are divided without remainder) of 6 is 1 + 2 + 3 + 6 = 12. Half of 12 is 6 => 6 is perfect number.
-•	You could read more about the perfect number here: https://en.wikipedia.org/wiki/Perfect_number  
+Every perfect number is half the sum of all its positive divisors (including itself) => the sum of all positive divisors (all of which are divided without remainder) of 6 is 1 + 2 + 3 + 6 = 12. Half of 12 is 6 => 6 is perfect number.  
+•	You could read more about the perfect number here: https://en.wikipedia.org/wiki/Perfect_number    
 
 11. * Loading Bar  
 You will receive a single integer number between 0 and 100 (inclusive) divisible by 10 without remainder (0, 10, 20, 30...). Your task is to create a function that returns a loading bar depending on the number you have received in the input. Print the result on the console. For more clarification, see the examples below.  
