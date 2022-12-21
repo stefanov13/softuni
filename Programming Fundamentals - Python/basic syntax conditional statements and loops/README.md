@@ -9,8 +9,8 @@ Could you help her?
 
 Examples
 Input - 	Output
-Peter	 -> Hello, Peter!
-Amy	-> Hello, Amy!
+Peter	 -> Hello, Peter!  
+Amy	-> Hello, Amy!  
 Johnny ->	Hello, my love!
 
 2.	Drink Something
@@ -26,10 +26,10 @@ Note: All the values are inclusive except the last one!
 
 Examples:
 Input	- Output
-13	-> drink toddy
-17	-> drink coke
-21	-> drink beer
-30	-> drink whisky
+13	-> drink toddy  
+17	-> drink coke  
+21	-> drink beer  
+30	-> drink whisky  
 
 3.	Chat Codes
 Peter is a programming enthusiast who wants to create a chat where people will send messages via number codes. 
@@ -46,28 +46,28 @@ For each number, the program should print a different message:
 Examples:
 
 Input:
-4
-88
-86
-2
-105
+4  
+88  
+86  
+2  
+105  
 
 Output:
-Hello
-How are you?
-GREAT!
-Bye.
+Hello  
+How are you?  
+GREAT!  
+Bye.  
 
 Input:
-3
-88
-88
-89
+3  
+88  
+88  
+89  
 
 Output:
-Hello
-Hello
-Bye.
+Hello  
+Hello  
+Bye.  
 
 4.	Maximum Multiple
 On the first line, you will be given a positive number, which will serve as a divisor. 
@@ -80,22 +80,22 @@ Note: it is guaranteed that N is found.
 
 Examples:
 Input:
-2
-7
+2  
+7  
 
 Output:
-6
+6  
 
 Input:
-10
-50
+10  
+50  
 
 Output:
 50
 
 Input:
-37
-200
+37  
+200  
 
 Output:
 185
@@ -118,41 +118,42 @@ After you go through all orders, you need to print the total price in the follow
 Both the price of a coffee and the total price must be formatted to the second decimal place. 
 
 Examples:
+
 Input:
-1
-1.53
-30
-8
+1  
+1.53  
+30  
+8  
 
 Output:
-The price for the coffee is: $367.20
+The price for the coffee is: $367.20  
 Total: $367.20
 
 Input:
-2
-4.99
-31
-3
-0.35
-31
-5
+2  
+4.99  
+31  
+3  
+0.35  
+31  
+5  
 
 Output:
-The price for the coffee is: $464.07
-The price for the coffee is: $54.25
+The price for the coffee is: $464.07  
+The price for the coffee is: $54.25  
 Total: $518.32
 
 Input:
-2
-9.223
-31
-0
-0.05
-10
-30
+2  
+9.223  
+31  
+0  
+0.05  
+10  
+30  
 
 Output:
-The price for the coffee is: $15.00
+The price for the coffee is: $15.00  
 Total: $15.00
 
 6.	String Pureness
@@ -164,23 +165,23 @@ Your task is to check if the given strings are pure, meaning that they do NOT co
 Examples:
 
 Input:
-2
-pure string
-not_pure_string
+2  
+pure string  
+not_pure_string  
 
 Output:
-pure string is pure.
+pure string is pure.  
 not_pure_string is not pure!
 
 Input:
-3
-SoftUni
-12345
-string.pureness
+3  
+SoftUni  
+12345  
+string.pureness  
 
 Output:
-SoftUni is pure.
-12345 is pure.
+SoftUni is pure.  
+12345 is pure.  
 string.pureness is not pure!
 
 7.	Double Char
@@ -191,22 +192,23 @@ Note that if you receive the string "SoftUni", you should NOT print it!
 Examples:
 
 Input:
-Hello World
-Repeat
+Hello World  
+Repeat  
 End
 
 Output:
-HHeelllloo  WWoorrlldd
+HHeelllloo  
+WWoorrlldd  
 RReeppeeaatt
 
 Input:
-1234!
-SoftUni
-softuni
+1234!  
+SoftUni  
+softuni  
 End
 
 Output:
-11223344!!
+11223344!!  
 ssooffttuunnii
 
 8.	How Much Coffee Do You Need?
@@ -226,24 +228,24 @@ In the end, print the number of coffees you will need. If the count has exceeded
 
 Examples:
 
-Input:
-dog
-CAT
-gaming
+Input:  
+dog  
+CAT  
+gaming  
 END
 
-Output:
+Output:  
 3
 
-Input:
-movie
-CODING
-MOVIE
-CLEANING
-cat
+Input:  
+movie  
+CODING  
+MOVIE  
+CLEANING  
+cat  
 END	
 
-Output:
+Output:  
 You need extra sleep
 
 9.	Sorting Hat
@@ -262,28 +264,28 @@ If all students are sorted successfully, print "Welcome to Hogwarts."
 
 Examples:
 
-Input:
-Harry
-Ron
-Ginny
-Draco
+Input:  
+Harry  
+Ron  
+Ginny  
+Draco  
 Welcome!
 
-Output:
-Harry goes to Slytherin.
-Ron goes to Gryffindor.
-Ginny goes to Slytherin.
-Draco goes to Slytherin.
+Output:  
+Harry goes to Slytherin.  
+Ron goes to Gryffindor.  
+Ginny goes to Slytherin.  
+Draco goes to Slytherin.  
 Welcome to Hogwarts.
 
 Input:
-Luna
-Hermione
-Neville
-Voldemort
+Luna  
+Hermione  
+Neville  
+Voldemort  
 
 Output:
-Luna goes to Gryffindor.
-Hermione goes to Hufflepuff.
-Neville goes to Hufflepuff.
+Luna goes to Gryffindor.  
+Hermione goes to Hufflepuff.  
+Neville goes to Hufflepuff.  
 You must not speak of that name!
