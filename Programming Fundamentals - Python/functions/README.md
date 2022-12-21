@@ -98,8 +98,10 @@ Print the result of the function on the console.
 
 Examples:  
 
-Input: 	
+Input: 	 
+
 1000435	  
+
 Output:  
 Odd sum = 9, Even sum = 4
 
@@ -113,8 +115,11 @@ Odd sum = 54, Even sum = 22
 Write a program that receives a sequence of numbers (integers) separated by a single space. It should print a list of only the even numbers. Use filter().  
 
 Example:  
+
 Input: 	
+
 1 2 3 4	  
+
 Output:  
 [2, 4]   
 
@@ -129,8 +134,10 @@ Write a program that receives a sequence of numbers (integers) separated by a si
 It should print a sorted list of numbers in ascending order. Use sorted().  
 
 Example:  
+
 Input:	 
 6 2 4  
+
 Output:  
 [2, 4, 6]   
 
@@ -171,6 +178,7 @@ Write a function that receives a list of positive integers, separated by comma a
 The function should check if each integer is a palindrome - True or False. Print the result.  
 
 Examples:   
+
 Input:				
 123, 323, 421, 121  
 
@@ -236,15 +244,19 @@ Examples:
 
 Input:  	
 6	  
+
 Output:  
 We have a perfect number!	 
+
 Comments:  
 1 + 2 + 3  
 
 Input:  
 28	 
+
 Output:  
 We have a perfect number!	 
+
 Comments:  
 1 + 2 + 4 + 7 + 14  
 
@@ -253,6 +265,7 @@ Input:
 
 Output:  
 It's not so perfect.  	
+
 Hint:  
 Every perfect number is half the sum of all its positive divisors (including itself) => the sum of all positive divisors (all of which are divided without remainder) of 6 is 1 + 2 + 3 + 6 = 12. Half of 12 is 6 => 6 is perfect number.  
 •	You could read more about the perfect number here: https://en.wikipedia.org/wiki/Perfect_number    
@@ -264,12 +277,14 @@ Examples:
 
 Input:  	
 30	
+
 Output:  
 30% [%%%.......]  
 Still loading...  
 
 Input:  
 50	 
+
 Output:  
 50% [%%%%%.....]  
 Still loading...  
@@ -277,5 +292,6 @@ Still loading...
 Input:  
 100	 
 Output:  
+
 100% Complete!  
 [%%%%%%%%%%]  
