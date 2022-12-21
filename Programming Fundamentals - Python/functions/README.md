@@ -291,7 +291,7 @@ Still loading...
 
 Input:  
 100	 
-Output:  
 
+Output:  
 100% Complete!  
 [%%%%%%%%%%]  
