@@ -1,0 +1,41 @@
+{% load static %}
+{% get_user as user_exists %}
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Starts Head Section -->
+<head>
+    <link rel="stylesheet"
+          href="{% static 'css/styles.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/free-30-instagram-stories-icons23_122570.png' %}">
+    <title>Petstagram</title>
+</head>
+<!-- End Head Section -->
+
+<!-- Starts Body Section -->
+<body>
+
+
+{% if user_exists %}
+    {% include 'base/nav-register-user.html' %}
+{% else %}
+    {% include 'base/nav-unregister-user.html' %}
+{% endif %}
+
+
+<!-- Starts Main Section -->
+<main>
+
+    {% block content %}
+        {% include 'common/home-page.html' %}
+    {% endblock  %}
+
+</main>
+<!-- End Main Section -->
+
+{% block footer %}
+    {% include 'base/footer.html' %}
+{% endblock  %}
+
+</body>
+</html>
