@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from . import models
 
 def photos_add(request):
 
@@ -6,8 +7,14 @@ def photos_add(request):
 
 
 def photo_details(request, pk):
+    picture = models.Photo.objects.filter(pk=pk).get()
+    pic_comments = picture.comment_set.all()
 
-    return render(request, 'photos/photo-details-page.html')
+    context = {
+        "pic_comments": pic_comments,
+        "picture": picture,
+    }
+    return render(request, 'photos/photo-details-page.html', context=context)
 
 
 def photo_edit(request, pk):
