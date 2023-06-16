@@ -185,10 +185,12 @@
                                         <!-- User First and/or Last Name or username-->
                                         <a href="">Steven Ivanov</a>
                                         <!-- User Comment -->
-                                        - OMG where can i get one
+                                        {% for comment in pic_comments %}
+                                            {{ comment.text }}
+                                        {% endfor %}
                                     </p>
                                 </div>
-                                <span>Sept. 20, 2022, 5:02 p.m.</span>
+                                <span>{{ picture.date_of_publication|date:'d m Y' }}</span>
                             </div>
                         </div>
                     </div>
